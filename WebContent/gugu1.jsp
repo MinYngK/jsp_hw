@@ -27,7 +27,7 @@ td {
 			for (int i = 2; i <= 9; i++) 
 				out.println("<TD>" + i + " x " + l + " = " + l * i + "</TD>");	
 			out.println("</TR>");
-	}
+		}
 	%>
 </table>
 
