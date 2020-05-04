@@ -20,20 +20,16 @@ button {
 <title>Insert title here</title>
 </head>
 <%
-String s1 = request.getParameter("s1");
-if (s1 == null) s1 = "one";
+String s1 = request.getParameter("num");
+if (s1==null)
+	s1="one";
 %>
 <body>
 
 	<form>
-		<div>
-			<select name="s1">
-				<option <%= "one".equals(s1) ? "selected" : "" %>>one</option>
-				<option <%= "two".equals(s1) ? "selected" : "" %>>two</option>
-				<option <%= "three".equals(s1) ? "selected" : "" %>>three</option>
-			</select>
-		</div>
-
+				<input type="radio" name=num value="one"  <%="name".equals(pageContext.getAttribute("num"))?"checked":"" %>>one
+				<input type="radio" name=num value="two" <%="name".equals(pageContext.getAttribute("num"))?"checked":"" %>>two
+				<input type="radio" name=num value="three" <%="name".equals(pageContext.getAttribute("num"))?"checked":"" %>>three		
 		<div>
 			<input type="text" value="<%= s1 %>" />
 		</div>
