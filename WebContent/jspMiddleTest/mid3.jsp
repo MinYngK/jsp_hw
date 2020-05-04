@@ -16,6 +16,7 @@ input, select {
 button {
 	padding: 0.4em 2em;
 }
+
 </style>
 <title>Insert title here</title>
 </head>
