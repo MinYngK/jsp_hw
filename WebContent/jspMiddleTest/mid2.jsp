@@ -27,7 +27,7 @@ if (s1==null)
 <body>
 
 	<form>
-				<input type="radio" name=num value="one"  <%="name".equals(pageContext.getAttribute("num"))?"checked":"" %>>one
+				<input type="radio" name=num value="one"  checked>one
 				<input type="radio" name=num value="two" <%="name".equals(pageContext.getAttribute("num"))?"checked":"" %>>two
 				<input type="radio" name=num value="three" <%="name".equals(pageContext.getAttribute("num"))?"checked":"" %>>three		
 		<div>
