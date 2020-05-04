@@ -34,9 +34,9 @@ if (s1==null)
 		  <div>
           <label>operator:</label>
           <select name="num">
-              <option value=s1<%="value".equals(s1)?"checked":"" %>>one</option>
-              <option value=s1<%="value".equals(s1)?"checked":"" %>>two</option>
-              <option value=s1<%="value".equals(s1)?"checked":"" %>>three</option>
+              <option value="one"<%="value".equals(s1)?"checked":"" %>>one</option>
+              <option value="two"<%="value".equals(s1)?"checked":"" %>>two</option>
+              <option value="three"<%="value".equals(s1)?"checked":"" %>>three</option>
           </select>
       </div>      
 
